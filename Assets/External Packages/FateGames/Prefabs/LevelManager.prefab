@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &576889031785371690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576889031785371688}
+  - component: {fileID: 6426594854444331286}
+  - component: {fileID: 4492961692362962129}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576889031785371688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6426594854444331286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b86ca0fc2be3614c91db65ce4e3608a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4492961692362962129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d1b422f0359174f9d0befb1ad75b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  fogColors:
+  - {r: 0.23137255, g: 0.54147416, b: 0.74509805, a: 0.8}
+  - {r: 0.39215687, g: 0.25490198, b: 0.64705884, a: 0.92156863}
+  - {r: 0.24300946, g: 0.823, b: 0.15143202, a: 0.8}
+  - {r: 0.9882353, g: 0.5254902, b: 0.12941177, a: 0.9098039}
+  towerColors:
+  - {r: 0.25854397, g: 0.45130062, b: 0.6603774, a: 1}
+  - {r: 0.49973622, g: 0.37837797, b: 0.70199996, a: 1}
+  - {r: 0.59599996, g: 0.59599996, b: 0.59599996, a: 1}
+  - {r: 0.631, g: 0.40762597, b: 0.526151, a: 1}
+  wallPrefab: {fileID: 2136843039426321409, guid: c0b62884b35f193479557143e6975af4, type: 3}
+  hitEffectPrefab: {fileID: 3805045263551016593, guid: feec9976957681548804cae4c10b90ab, type: 3}
+  decalEffectPrefab: {fileID: 1027697777517218, guid: 628d050c815a3a3448ce1dcdf0578f21, type: 3}
